@@ -15,6 +15,8 @@ import wrapper.vector_int;
  * @author teammember
  */
 public class How_Features_work_tutorial_test {
+    
+    
     static void program1_test()
     {
         wrapper.pcl.PointCloud_PointXYZ cloud =new PointCloud_PointXYZ();
@@ -24,7 +26,7 @@ public class How_Features_work_tutorial_test {
         cloud.push_back(new wrapper.pcl.PointXYZ((float)0.027, (float)0.060, (float)0.070));
         cloud.push_back(new wrapper.pcl.PointXYZ((float)0.028, (float)0.060, (float)0.070));
         // Create the normal estimation class, and pass the input dataset to it
-        wrapper.pcl.NormalEstimation_PointXYZ_Normal ne=new NormalEstimation_PointXYZ_Normal();
+        wrapper.pcl.NormalEstimation_PointXYZ_Normal ne = new NormalEstimation_PointXYZ_Normal();
         ne.setInputCloud(cloud);
         wrapper.pcl.search.KdTree_PointXYZ tree=new KdTree_PointXYZ(0, true);
         ne.setSearchMethod(tree);
