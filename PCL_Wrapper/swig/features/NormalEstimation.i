@@ -59,3 +59,4 @@ namespace pcl
 //making instances of the template to be used within java
 %import "../point_types/Normal.i"
 %template (NormalEstimation_PointXYZ_Normal) pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal>;
+%template (NormalEstimation_PointXYZRGBA_Normal) pcl::NormalEstimation<pcl::PointXYZRGBA, pcl::Normal>;

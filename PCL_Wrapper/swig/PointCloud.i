@@ -16,6 +16,9 @@ typedef unsigned int size_t;
 //make shared pointers definition here
 %shared_ptr(pcl::PointCloud<pcl::PointXYZ>) //will map boost::shared_ptr<PointCloud<PointXYZ> > and boost::shared_ptr<const PointCloud<PointXYZ> > to pcl::PointCloud<pcl::PointXYZ> which is a good thing, elaminates the use of pointers, elmainates incomplete type SWIGTYPE_p_.....  
 %shared_ptr(pcl::PointCloud<pcl::Normal>)
+%shared_ptr(pcl::PointCloud<pcl::Point_types>)
+%shared_ptr(pcl::PointCloud<pcl::PointXYZRGBA>)
+%shared_ptr(pcl::PointCloud<pcl::PointXYZRGB>)
 
 namespace pcl
 {
@@ -117,3 +120,12 @@ namespace pcl
 %import "swig/point_types/Normal.i"
 %template(PointCloud_Normal) pcl::PointCloud<pcl::Normal>;
 //don't forget to use shared_ptr macro like in line 17
+
+%import "swig/point_types/Point_types.i"
+%template(PointCloud_Point_types) pcl::PointCloud<pcl::Point_types>;
+
+%import "swig/point_types/PointXYZRGBA.i"
+%template(PointCloud_PointXYZRGBA) pcl::PointCloud<pcl::PointXYZRGBA>;
+
+%import "swig/point_types/PointXYZRGB.i"
+%template(PointCloud_PointXYZRGB) pcl::PointCloud<pcl::PointXYZRGB>;

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="struct_field_matches_3_01_point_t_00_01fields_1_1rgb_01_4" kind="struct"><name>FieldMatches&lt; PointT, fields::rgb &gt;</name>
+    <member refid="struct_field_matches_3_01_point_t_00_01fields_1_1rgb_01_4_1a51b3c46fd495594cfcca178866ba4735" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structpcl_1_1_histogram" kind="struct"><name>pcl::Histogram</name>
+  </compound>
+  <compound refid="namespacepcl" kind="namespace"><name>pcl</name>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8b" kind="enum"><name>BorderTrait</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8baba2ab46c88349350939f52bbd63cde63" kind="enumvalue"><name>BORDER_TRAIT__OBSTACLE_BORDER</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8babbe3c6413874052b1bd961efd024e707" kind="enumvalue"><name>BORDER_TRAIT__SHADOW_BORDER</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8baed1fff632898caa19ba9c1b15e639c6e" kind="enumvalue"><name>BORDER_TRAIT__VEIL_POINT</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8bac33023b67fa7bef437316f060a45680a" kind="enumvalue"><name>BORDER_TRAIT__SHADOW_BORDER_TOP</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba02629b93f54ba6f5df84c201841a6885" kind="enumvalue"><name>BORDER_TRAIT__SHADOW_BORDER_RIGHT</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba930363a872a79a7d81d6e4205855776c" kind="enumvalue"><name>BORDER_TRAIT__SHADOW_BORDER_BOTTOM</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba68f048247d59b845f64a0c2f98e49200" kind="enumvalue"><name>BORDER_TRAIT__SHADOW_BORDER_LEFT</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba0126deec3b7ff7353d146e637f5079b0" kind="enumvalue"><name>BORDER_TRAIT__OBSTACLE_BORDER_TOP</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba95274e6ae483a678bfff02bee92a199f" kind="enumvalue"><name>BORDER_TRAIT__OBSTACLE_BORDER_RIGHT</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba9a16989fdc97f0d09f1602922ff5b915" kind="enumvalue"><name>BORDER_TRAIT__OBSTACLE_BORDER_BOTTOM</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba639881dfaa920ff16178ccd10032596c" kind="enumvalue"><name>BORDER_TRAIT__OBSTACLE_BORDER_LEFT</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba15f4b2984e8c57fd9e343d4ef7ecfbf5" kind="enumvalue"><name>BORDER_TRAIT__VEIL_POINT_TOP</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba0c79af62cb33c6b991a5560dcae502fe" kind="enumvalue"><name>BORDER_TRAIT__VEIL_POINT_RIGHT</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba58422e9652213c3b66933e6488e6934f" kind="enumvalue"><name>BORDER_TRAIT__VEIL_POINT_BOTTOM</name></member>
+    <member refid="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8bab835d36d98c678431e97796376690219" kind="enumvalue"><name>BORDER_TRAIT__VEIL_POINT_LEFT</name></member>
+    <member refid="namespacepcl_1a010a963efcb59df316596af2902fcb58" kind="typedef"><name>BorderTraits</name></member>
+  </compound>
+  <compound refid="point__types_8h" kind="file"><name>point_types.h</name>
+    <member refid="point__types_8h_1affaf530fa6f8b7ced3fe780eaa8dd32e" kind="function"><name>POINT_CLOUD_REGISTER_POINT_STRUCT</name></member>
+  </compound>
+</doxygenindex>

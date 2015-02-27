@@ -131,3 +131,9 @@ namespace pcl
 %template (PCLBase_PointXYZ) pcl::PCLBase<pcl::PointXYZ>;
 
 %template(vector_int) std::vector<int>; //for usage with SetIndices
+
+%import "point_types/Point_types.i"
+%template (PCLBase_Point_types) pcl::PCLBase<pcl::Point_types>;
+
+%import "point_types/PointXYZRGBA.i"
+%template (PCLBase_PointXYZRGBA) pcl::PCLBase<pcl::PointXYZRGBA>;

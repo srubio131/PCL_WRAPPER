@@ -7,6 +7,8 @@
 
 %shared_ptr(pcl::search::Search<pcl::PointXYZ>) //declaring pcl::search::Search<pcl::PointXYZ> as a smart pointer so that swig will undertsand this when making wrapper for this class
 
+%shared_ptr(pcl::search::Search<pcl::PointXYZRGBA>)
+
 namespace pcl
 {	
 	template <typename PointInT, typename PointOutT>
@@ -214,3 +216,4 @@ namespace pcl
 //making instances of the template to be used within java
 %import "../point_types/Normal.i"
 %template (Feature_PointXYZ_Normal) pcl::Feature<pcl::PointXYZ, pcl::Normal>;
+%template (Feature_PointXYZRGBA_Normal) pcl::Feature<pcl::PointXYZRGBA, pcl::Normal>;

@@ -39,12 +39,12 @@ cd ..
 
 #compile C++ wrapper library
 echo ""
-echo "Genertaing the solution and compiling it using cmake and make:"
+echo "Generating the solution and compiling it using cmake and make:"
 echo "--------------------------------------------------------------"
 cd cpp
 #building the project with CMake with default build target
 #try to make it build with Unix files make
-cmake --build CMake 
+#cmake --build CMake 
 cd ..
 
 #Creating library jar

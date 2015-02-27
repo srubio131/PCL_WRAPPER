@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_field_matches_3_01_point_t_00_01fields_1_1rgb_01_4" kind="struct" prot="public">
+    <compoundname>FieldMatches&lt; PointT, fields::rgb &gt;</compoundname>
+    <includes refid="point__types_8h" local="no">point_types.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename PointT</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_field_matches_3_01_point_t_00_01fields_1_1rgb_01_4_1a51b3c46fd495594cfcca178866ba4735" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FieldMatches&lt; PointT, fields::rgb &gt;::operator()</definition>
+        <argsstring>(const pcl::PCLPointField &amp;field)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const pcl::PCLPointField &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" line="654" column="1" bodyfile="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" bodystart="654" bodyend="667"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" line="653" column="1" bodyfile="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" bodystart="652" bodyend="668"/>
+    <listofallmembers>
+      <member refid="struct_field_matches_3_01_point_t_00_01fields_1_1rgb_01_4_1a51b3c46fd495594cfcca178866ba4735" prot="public" virt="non-virtual"><scope>FieldMatches&lt; PointT, fields::rgb &gt;</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

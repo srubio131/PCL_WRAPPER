@@ -7,6 +7,8 @@
 //making smart pointers here
 %shared_ptr(pcl::search::Search<pcl::PointXYZ>)//for making a smart pointer of this class, because swig complaines about making kdtree a smart pointer and it's parent "Search" is not
 
+%shared_ptr(pcl::search::Search<pcl::PointXYZRGBA>)
+
 namespace pcl
 {
   namespace search
@@ -324,4 +326,5 @@ namespace pcl
 //making instances of the template to be used within java
 %import "../point_types/Normal.i"
 %template (Search_PointXYZ) pcl::search::Search<pcl::PointXYZ>;
+%template (Search_PointXYZRGBA) pcl::search::Search<pcl::PointXYZRGBA>;
 //don't forget to use make smart pointers of this instance of template at line 7

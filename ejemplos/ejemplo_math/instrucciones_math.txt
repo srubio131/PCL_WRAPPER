@@ -1,0 +1,16 @@
+swig -java -package swig -outdir swig math.i
+gcc -c math_wrap.c  -I/opt/jdk1.8.0_25/include/ -I/opt/jdk1.8.0_25/include/linux/
+ld -G math_wrap.o -o libmath.so
+
+Fichero prueba.java
+--------------------
+public class prueba {
+  static {
+    System.loadLibrary("math");
+  }
+
+  public static void main(String argv[]) {
+    System.out.println(swig.pow(2,10));
+  }
+}
+-----------------------------------------------------

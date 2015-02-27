@@ -11,6 +11,8 @@
 //make shared pointers definition here
 %shared_ptr(pcl::search::KdTree<pcl::PointXYZ>) //will map boost::shared_ptr<pcl::search::KdTree<pcl::PointXYZ> > and boost::shared_ptr<const pcl::search::KdTree<pcl::PointXYZ> > to pcl::search::KdTree<pcl::PointXYZ> which is a good thing, elaminates the use of pointers  , elaminates incomplete type SWIGTYPE_p_boost_ptr....
 
+%shared_ptr(pcl::search::KdTree<pcl::PointXYZRGBA>)
+
 namespace pcl
 {
   template <typename T> class PointRepresentation;
@@ -88,4 +90,5 @@ namespace pcl
 
 %import "swig/point_types/PointXYZ.i"
 %template (KdTree_PointXYZ) pcl::search::KdTree<pcl::PointXYZ>;
+%template (KdTree_PointXYZRGBA) pcl::search::KdTree<pcl::PointXYZRGBA>;
 //don't forget to make shared pointers out of this class at line 11

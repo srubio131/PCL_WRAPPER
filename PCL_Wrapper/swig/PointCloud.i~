@@ -16,6 +16,8 @@ typedef unsigned int size_t;
 //make shared pointers definition here
 %shared_ptr(pcl::PointCloud<pcl::PointXYZ>) //will map boost::shared_ptr<PointCloud<PointXYZ> > and boost::shared_ptr<const PointCloud<PointXYZ> > to pcl::PointCloud<pcl::PointXYZ> which is a good thing, elaminates the use of pointers, elmainates incomplete type SWIGTYPE_p_.....  
 %shared_ptr(pcl::PointCloud<pcl::Normal>)
+%shared_ptr(pcl::PointCloud<pcl::Point_types>)
+%shared_ptr(pcl::PointCloud<pcl::PointXYZRGBA>)
 
 namespace pcl
 {
@@ -46,9 +48,10 @@ namespace pcl
     PointT & 	operator() (size_t column, size_t row);
     bool 	isOrganized () const ;
      //causes strange compilation error
+     /*
      Eigen::Map< Eigen::MatrixXf,Eigen::Aligned,Eigen::OuterStride<> > 	
 		getMatrixXfMap (int dim, int stride, int offset);
-    /* const Eigen::Map< constEigen::MatrixXf,Eigen::Aligned,Eigen::OuterStride<> >
+     const Eigen::Map< constEigen::MatrixXf,Eigen::Aligned,Eigen::OuterStride<> >
      	getMatrixXfMap (int dim, int stride, int offset) const ;
 	Eigen::Map< Eigen::MatrixXf,Eigen::Aligned,Eigen::OuterStride<> >
 		getMatrixXfMap ();
@@ -116,3 +119,9 @@ namespace pcl
 %import "swig/point_types/Normal.i"
 %template(PointCloud_Normal) pcl::PointCloud<pcl::Normal>;
 //don't forget to use shared_ptr macro like in line 17
+
+%import "swig/point_types/Point_types.i"
+%template(PointCloud_Point_types) pcl::PointCloud<pcl::Point_types>;
+
+%import "swig/point_types/PointXYZRGBA.i"
+%template(PointCloud_PointXYZRGBA) pcl::PointCloud<pcl::PointXYZRGBA>;

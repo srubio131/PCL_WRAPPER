@@ -58,9 +58,11 @@ namespace pcl
       /** \brief Provide a pointer to the vector of indices that represents the input data.
         * \param[in] indices a pointer to the indices that represent the input data.
         */
+	/*
+	// I removed it because it makes swig redenfines a function , so it won't compile
       virtual void
       setIndices (const IndicesConstPtr &indices);
-
+	*/
       /** \brief Provide a pointer to the vector of indices that represents the input data.
         * \param[in] indices a pointer to the indices that represent the input data.
         */

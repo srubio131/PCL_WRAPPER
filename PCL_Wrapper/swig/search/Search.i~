@@ -324,4 +324,5 @@ namespace pcl
 //making instances of the template to be used within java
 %import "../point_types/Normal.i"
 %template (Search_PointXYZ) pcl::search::Search<pcl::PointXYZ>;
+%template (Search_PointXYZRGBA) pcl::search::Search<pcl::PointXYZRGBA>;
 //don't forget to use make smart pointers of this instance of template at line 7

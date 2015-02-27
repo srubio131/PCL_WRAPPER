@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacepcl" kind="namespace">
+    <compoundname>pcl</compoundname>
+    <innerclass refid="structpcl_1_1_histogram" prot="public">pcl::Histogram</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8b" prot="public" static="no">
+        <name>BorderTrait</name>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8baba2ab46c88349350939f52bbd63cde63" prot="public">
+          <name>BORDER_TRAIT__OBSTACLE_BORDER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8babbe3c6413874052b1bd961efd024e707" prot="public">
+          <name>BORDER_TRAIT__SHADOW_BORDER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8baed1fff632898caa19ba9c1b15e639c6e" prot="public">
+          <name>BORDER_TRAIT__VEIL_POINT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8bac33023b67fa7bef437316f060a45680a" prot="public">
+          <name>BORDER_TRAIT__SHADOW_BORDER_TOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba02629b93f54ba6f5df84c201841a6885" prot="public">
+          <name>BORDER_TRAIT__SHADOW_BORDER_RIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba930363a872a79a7d81d6e4205855776c" prot="public">
+          <name>BORDER_TRAIT__SHADOW_BORDER_BOTTOM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba68f048247d59b845f64a0c2f98e49200" prot="public">
+          <name>BORDER_TRAIT__SHADOW_BORDER_LEFT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba0126deec3b7ff7353d146e637f5079b0" prot="public">
+          <name>BORDER_TRAIT__OBSTACLE_BORDER_TOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba95274e6ae483a678bfff02bee92a199f" prot="public">
+          <name>BORDER_TRAIT__OBSTACLE_BORDER_RIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba9a16989fdc97f0d09f1602922ff5b915" prot="public">
+          <name>BORDER_TRAIT__OBSTACLE_BORDER_BOTTOM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba639881dfaa920ff16178ccd10032596c" prot="public">
+          <name>BORDER_TRAIT__OBSTACLE_BORDER_LEFT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba15f4b2984e8c57fd9e343d4ef7ecfbf5" prot="public">
+          <name>BORDER_TRAIT__VEIL_POINT_TOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba0c79af62cb33c6b991a5560dcae502fe" prot="public">
+          <name>BORDER_TRAIT__VEIL_POINT_RIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8ba58422e9652213c3b66933e6488e6934f" prot="public">
+          <name>BORDER_TRAIT__VEIL_POINT_BOTTOM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacepcl_1a7b4e0dcfd710e4c96737e6012b318e8bab835d36d98c678431e97796376690219" prot="public">
+          <name>BORDER_TRAIT__VEIL_POINT_LEFT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Specification of the fields for BorderDescription::traits. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" line="284" column="1" bodyfile="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" bodystart="283" bodyend="290"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacepcl_1a010a963efcb59df316596af2902fcb58" prot="public" static="no">
+        <type>std::bitset&lt; 32 &gt;</type>
+        <definition>typedef std::bitset&lt;32&gt; pcl::BorderTraits</definition>
+        <argsstring></argsstring>
+        <name>BorderTraits</name>
+        <briefdescription>
+<para>Data type to store extended information about a transition from foreground to backgroundSpecification of the fields for BorderDescription::traits. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" line="278" column="1" bodyfile="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sergio/Documentos/Dropbox/MaquinaVirtualPCL/Doxygen/pcl/point_types.h" line="64" column="1"/>
+  </compounddef>
+</doxygen>
