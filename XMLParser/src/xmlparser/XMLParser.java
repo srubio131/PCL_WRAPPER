@@ -56,7 +56,7 @@ public class XMLParser extends DefaultHandler {
         if (name.contains("includes"))
         {
             System.out.println("tElemento: " + name);
-            pw.print("#include <"+qName.getValue("")+">");
+            //pw.print("#include <"+qName.getValue("")+">");
             
             try {
                 // TODO falta cerrar el archivo
